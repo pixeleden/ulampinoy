@@ -3,7 +3,7 @@ layout: post
 title:  "Sinigang na Bangus"
 date:   2015-07-02 22:35:04
 categories: ulampinoy fish
-excerpt: Milkfish in tamarind-based broth with onions, ginger, tomatoes, green chilis and pechay.
+excerpt: Milkfish in tamarind-based broth with onions, ginger, tomatoes, chilis and pechay.
 photo: /assets/photos/sinigang-bangus.jpg
 ---
 
@@ -18,4 +18,3 @@ Milkfish in tamarind-based broth with onions, ginger, tomatoes, green chilis and
 Whether you are using the real *sampaloc* or the instant powder version, adding tomato to your *sinigang* upscale the broth. Make sure to put the ripest fruit you can find!  
 
 <i class="fa fa-heart"></i>
-

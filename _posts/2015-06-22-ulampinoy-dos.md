@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Currently, cooking…"
-date:   2015-06-30 23:00:32
+date:   2015-07-04 23:00:32
 categories: update ulampinoy
 excerpt: We are redesigning UlamPinoy…
 photo: /assets/photos/caldero-on-top-wood-stove.jpg
 ---
 
-We are glad to launch today the fresh new look of UlamPinoy. We are currently redesigning the entire UlamPinoy site to make your visits to UlamPinoy fun and worthwhile an experience no matter if you are hunting for some tasty recipes or just feasting your eyes with our food adventure collections. 
+We are glad to launch today the fresh new look of UlamPinoy. We are currently redesigning the entire UlamPinoy site to make your visits to UlamPinoy fun and worthwhile an experience no matter if you are hunting for some tasty recipes or just feasting your eyes with our food adventure collections.
 
 <div class="photo"><img src="/assets/photos/beef-brisket-noodle-soup.jpg" alt="Bowl of beef brisket noodle soup"></div>
 
@@ -49,4 +49,3 @@ You might find some rough edges here and there so please bear with us as we poli
 Hope you enjoy the fresh new look of UlamPinoy as we continue making home cooking fun and delicious!
 
 <i class="fa fa-heart"></i>
-
