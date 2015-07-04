@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Red Brown Brunch"
+date:   2011-07-21 00:33:31
+categories: fruits brunch
+excerpt: Strawberries with cereals and milk
+photo: /assets/photos/strawberries-cereals.jpg
+---
+
+Brunch is a combination of breakfast and lunch. The term is a portmanteau of breakfast and lunch. Often, it is a heavy meal meant to take the place of both breakfast and lunch.
+
+A meal is not usually considered brunch if it is started before 10 o'clock in the morning, such meals would still be considered breakfast. Typically brunch is had at around 10AM, close to lunch time but still before. The hours of brunch are 10AM to 3PM. 
+
+I love brunch. Ever.

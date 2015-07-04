@@ -1,0 +1,24 @@
+
+$source-sans: "Source Sans Pro", sans-serif;
+$handwriting: "Lobster Two", cursive;
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+
+html {
+  font: 400 1.1em/1.6em $source-sans;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, p {
+  font-family: $source-sans;
+}
+
+.splash-head {
+  font-family: $handwriting;
+}
+
+.splash-subhead {
+  font-family: $source-sans;
+}
