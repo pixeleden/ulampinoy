@@ -27,7 +27,7 @@ As the title above suggests it is a work in progress. Instead of waiting to fini
      </div>
   </div>
 
-  <div class="ppure-u-1 pure-u-md-1-2">
+  <div class="pure-u-1 pure-u-md-1-2">
     <div class="l-box">
       <img class="pure-img" src="/assets/photos/man-on-bike-with-message-and-seahorse.jpg" alt="Man riding a bike with golden seahorse">
       <small>RANDOM: A man with a message, dolphin and a golden seahorse in Santander, Spain</small>
