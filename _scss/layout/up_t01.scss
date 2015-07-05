@@ -249,6 +249,7 @@ a.pure-button-primary {
 
 .home-menu a {
     color: #6FBEF3;
+    font-weight: 400;
 }
 
 .home-menu li a:hover,
@@ -525,16 +526,6 @@ section {
 .related {
     margin-top: 40px;
     padding-top: 30px;
-}
-
-a.linkwrap {
-    img {
-      padding: 4px;
-      background: #fff;
-        &:hover {
-          background: #eee;
-        }  
-    }
 }
 
 @media (max-width: 35.5em) {
