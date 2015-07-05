@@ -17,4 +17,5 @@ Milkfish in tamarind-based broth with onions, ginger, tomatoes, green chilis and
 
 Whether you are using the real *sampaloc* or the instant powder version, adding tomato to your *sinigang* upscale the broth. Make sure to put the ripest fruit you can find!  
 
-<i class="fa fa-heart"></i>
+![Fish](/images/fish.svg)
+

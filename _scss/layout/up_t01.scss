@@ -529,9 +529,10 @@ section {
 
 a.linkwrap {
     img {
-      border: 1px solid #fff;
+      padding: 4px;
+      background: #fff;
         &:hover {
-        border-color: #08c;
+          background: #eee;
         }  
     }
 }
