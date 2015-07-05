@@ -527,6 +527,15 @@ section {
     padding-top: 30px;
 }
 
+a.linkwrap {
+    img {
+      border: 1px solid #fff;
+        &:hover {
+        border-color: #08c;
+        }  
+    }
+}
+
 @media (max-width: 35.5em) {
     .splash-container {
         height: 500px;
