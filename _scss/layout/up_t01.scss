@@ -217,7 +217,7 @@ a.pure-button-primary {
  */
 
 .home-menu {
-    padding: 0.48em;
+    padding: 0.2em;
     text-align: center;
 }
 
@@ -241,6 +241,7 @@ a.pure-button-primary {
     color: white;
     font-weight: 400;
     font-size: 120%;
+    letter-spacing: 1px;
 }
 
 .home-menu .pure-menu-selected a {
@@ -512,15 +513,13 @@ section {
             }
         }
     }
+    .eop {
+        font-size: 80%;
+    }
 }
 
-.fa-heart {
+.fa-heart, .fa-circle {
     color: #d90000;
-    &:hover {
-        -ms-transform: scale(2,2); /* IE 9 */
-        -webkit-transform: scale(2,2); /* Safari */
-        transform: scale(2,2);
-    }
 }
 
 .related {
@@ -539,7 +538,7 @@ section {
 
 @media (max-width: 35.5em) {
     .splash-container {
-        height: 500px;
+        height: 400px;
     }
     .splash-subhead {
         font-size: 27px;
@@ -548,6 +547,9 @@ section {
         .mc-field-group {
             width: 100%;
         }
+    }
+    .home-menu {
+        font-size: .9em;
     }
 }
 /*
@@ -587,13 +589,15 @@ section {
     .splash {
         width: 50%;
         height: 50%;
-        .logo-badge {
-            width: 177px;
-        }
     }
     .splash-head {
-        font-size: 500%;
+        font-size: 600%;
     }
+
+    .splash-subhead {
+        font-size: 30px;
+    }
+
     /* We remove the border-separator assigned to .l-box-lrg */
 
     .l-box-lrg {
@@ -611,5 +615,9 @@ section {
 
     .splash-head {
         font-size: 800%;
+    }
+
+    .splash-subhead {
+        font-size: 27px;
     }
 }
