@@ -29,6 +29,3 @@ Churros ready! Skimmed and drained from the hot oil with the help of a steel rod
 
 Churrería Art – empty plastic jars of chocolate if you are buying for to go. 
 Enjoy the warm and tasty *churros y chocolate.*
-
-<i class="fa fa-heart"></i>
-

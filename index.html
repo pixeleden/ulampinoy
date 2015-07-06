@@ -31,7 +31,7 @@ layout: home
     </div>
 
     <div class="pure-g latest-posts">
-      {% for post in site.posts | limit: 3%}
+      {% for post in site.categories.featured | limit: 3%}
       <div class="pure-u-1 pure-u-md-1-3">
         <article class="post">
           <a href="{{ site.baseurl }}{{ post.url }}"><img class="pure-img" src="{{ post.photo }}" /></a>
