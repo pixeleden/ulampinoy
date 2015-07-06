@@ -47,5 +47,3 @@ As the title above suggests it is a work in progress. Instead of waiting to fini
 You might find some rough edges here and there so please bear with us as we polish up UlamPinoy. Meanwhile, if you have not subscribe yet please do by clicking the **'Subscribe'** link at the top right corner of the page.
 
 Hope you enjoy the fresh new look of UlamPinoy as we continue making home cooking fun and delicious!
-
-<i class="fa fa-heart"></i>
