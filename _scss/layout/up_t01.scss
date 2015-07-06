@@ -339,8 +339,8 @@ a.pure-button-primary {
     font-weight: bold;
     color: #D90000;
     font-weight: 100;
-    line-height: 1em;
-    margin-top: 0.2em;
+    line-height: 1;
+    margin-top: 0.5em;
     margin-bottom: 0;
     text-shadow: 0 0 30px rgba(0, 0, 0, .4);
     text-align: center;
@@ -529,6 +529,23 @@ section {
         letter-spacing: 1px;
         color: #999;
     }
+}
+
+.jump-archive {
+    font-size: 24px;
+    a {
+        i {
+            display: block;
+            font-weight: 100;
+            margin-bottom: 10px;
+         }
+
+        &:hover {
+            text-decoration: none;
+        }
+     }
+
+    
 }
 
 
