@@ -2,3 +2,4 @@ _site/*
 *.scssc
 _Gemfile
 _Gemfile.lock
+_drafts

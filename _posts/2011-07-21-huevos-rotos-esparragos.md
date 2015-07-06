@@ -24,7 +24,7 @@ Typically here in Madrid, the eggs are broken, literally when they serve it, in 
 * Salt & Pepper
 * Paprika & Parsley (for garnish)
 
-#### Procedure
+### Procedure
 
 1. Sauté onion & garlic in olive oil
 2. Throw in the chorizo; let it sizzle until it change the color of the oil
