@@ -1,0 +1,17 @@
+// Color Variables
+
+$carbon: #0A0A0A;
+$silver: #BABABA;
+
+// Dark theme
+
+body {
+	&.dark {
+		background-color: $carbon;
+		color: $silver;
+
+		.home-menu {
+			background: $carbon;
+		}
+	}
+}
