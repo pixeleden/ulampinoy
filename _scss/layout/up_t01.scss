@@ -34,10 +34,15 @@ a,
 a:link {
     text-decoration: none;
     color: #08c;
+    -webkit-transition: color 500ms ease;
+    -moz-transition: color 500ms ease;
+    -o-transition: color 500ms ease;
+    transition: color 500ms ease;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #00A1F1;
 }
 /*
  * -- LAYOUT STYLES --
@@ -510,7 +515,7 @@ section {
         }
     }
     .eop {
-        font-size: 80%;
+        font-size: 77%;
     }
 }
 
@@ -533,6 +538,9 @@ section {
 
 .jump-archive {
     font-size: 24px;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
     a {
         i {
             display: block;
@@ -542,10 +550,9 @@ section {
 
         &:hover {
             text-decoration: none;
+            color: #00A1F1;
         }
      }
-
-    
 }
 
 
@@ -565,9 +572,9 @@ section {
         font-size: .9em;
     }
     .hero-mini {
-        height: 320px;
+        height: 300px;
         .header {
-            font-size: 18px;
+            font-size: 16px;
             top: 60px;
         }
     }
