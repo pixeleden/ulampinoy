@@ -528,9 +528,14 @@ section {
     }
 }
 
-.fa-heart, .fa-circle {
-    color: #d90000;
+.fa {
+    &.fa-heart, &.fa-circle {
+        color: #d90000;
+        font-size: 13px;
+    }
 }
+
+
 
 .related {
     margin-top: 40px;
