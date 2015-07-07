@@ -7,11 +7,11 @@ $georgia: Georgia, serif;
 
 
 html, body {
-  font: 400 1.1em/1.6em $source-sans;
+  font: 500 1.1em/1.6em $source-sans;
   text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3, h4, h5, p, .header, ul, li {
+h1, h2, h3, h4, h5, p, .header, ul, li, small {
   font-family: $source-sans;
 }
 

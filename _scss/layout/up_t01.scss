@@ -163,8 +163,11 @@ a:hover {
 }
 
 small {
-    margin: 20px 0;
+    color: #777;
+    margin: 10px auto;
     font-size: 11px;
+    line-height: 1.4;
+    display: block;
 }
 
 .pure-form {
@@ -555,6 +558,10 @@ section {
      }
 }
 
+.p-box {
+    padding: .4em;
+}
+
 
 @media (max-width: 35.5em) {
     .splash-container {
@@ -577,6 +584,15 @@ section {
             font-size: 16px;
             top: 60px;
         }
+    }
+    .single-post {
+
+        .entry p, .entry h3, .entry ul, small {
+            width: 80%;
+        }
+    }
+    .p-box {
+        padding: .4em 0;
     }
 }
 /*
