@@ -5,6 +5,7 @@ categories: video
 tags: seafoods
 excerpt: Squids adobo style! We love it very much – this is the second video!
 photo: /assets/photos/squid-adobo-plate.jpg
+theme: dark
 ---
 
 Fresh squids cooked adobo style! We love it very much and it really shows – this is the second video of Adobong Pusit
@@ -27,7 +28,7 @@ Cook the squid at high heat in less time until it gets tender and add the vinega
 
 Squid adobo is great as a rice topping or with a glass of beer or white wine. Just be conscious when you smile while you eat (or never mind if everybody is having it)!
 
-Enjoy and **please subscribe** to [our YouTube channel](https://www.youtube.com/user/ulampinoy)
+Enjoy cooking along and **please subscribe** to [our YouTube channel](https://www.youtube.com/user/ulampinoy)
 
 <div class="video-holder">
 <iframe width="720" height="405" src="https://www.youtube.com/embed/JXyMlmFa0w8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
