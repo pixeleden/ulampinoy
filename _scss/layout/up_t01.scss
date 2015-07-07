@@ -637,6 +637,29 @@ section {
     body {
         font-size: 16px;
     }
+
+    .single-post {
+        .entry {
+            p, h3, ul, ol, header, small {
+                width: 77.77%;
+            }
+
+            header h1 {
+                font-size: 48px;
+            }
+
+            p, ul, ol, h3 {
+                font-size: 18px;
+            }
+            
+            small {
+                font-size: 14px;
+            }
+
+        }
+    }
+
+    
     /* We want to give the content area some more padding */
 
     .content {
