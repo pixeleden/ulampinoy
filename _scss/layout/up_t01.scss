@@ -479,6 +479,11 @@ section {
         line-height: 1.6;
         font-weight: 400;
     }
+    figure {
+        .full-width {
+            margin: 0 auto;
+        }
+    }
     .entry {
         padding: 40px 0 60px 0;
         header, h3, ul, ol {
@@ -597,7 +602,7 @@ section {
     }
     .single-post {
         .entry {
-            p, h3, ul, ol, header, small {
+            p, h3, ul, ol, header, small, figcaption {
                 width: 88.88%;
             }
 
@@ -612,9 +617,19 @@ section {
             small {
                 font-size: 14px;
             }
-
+        }
+        
+        figure {
+            &.full-width {
+                margin: 0 auto;
+            }
+        }
+        figcaption {
+            font-size: 14px;
+            margin: 10px auto 0;
         }
     }
+
     .p-box {
         padding: .4em 0;
         margin: .4em auto;
@@ -640,7 +655,7 @@ section {
 
     .single-post {
         .entry {
-            p, h3, ul, ol, header, small {
+            p, h3, ul, ol, header, small, figcaption {
                 width: 77.77%;
             }
 
@@ -655,6 +670,16 @@ section {
             small {
                 font-size: 14px;
             }
+
+            figure {
+            &.full-width {
+                margin: 0 auto;
+            }
+        }
+        figcaption {
+            font-size: 14px;
+            margin: 10px auto 0;
+        }
 
         }
     }
