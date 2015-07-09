@@ -224,12 +224,12 @@ a.pure-button-primary {
  */
 
 .home-menu {
-    padding: 0.2em;
+    padding: 0.4em;
     text-align: center;
 }
 
 .home-menu {
-    background: rgba(0, 0, 0, .72);
+    background: rgba(0, 0, 0, .8);
     a:hover {
         text-decoration: none !important;
     }
@@ -245,10 +245,14 @@ a.pure-button-primary {
 }
 
 .home-menu .pure-menu-heading {
-    color: white;
+    color: #eaeaea;
     font-weight: 400;
-    font-size: 120%;
+    font-size: 125%;
     letter-spacing: 1px;
+
+    &:hover {
+        color: #fff;
+    }
 }
 
 .home-menu .pure-menu-selected a {
