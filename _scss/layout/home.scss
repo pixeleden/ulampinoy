@@ -1,0 +1,129 @@
+/* Homepage Styles */
+
+section {
+
+	&.main-header {
+		position: relative;
+
+		&::before {
+			content: '';
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+	
+		&::after {
+			background: url('/assets/hero/vinegar-spices.jpg') no-repeat center center;
+	  		background-size: cover;
+	  		content: "";
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: -1;
+			color: #fff;
+	  		-webkit-transition: -webkit-filter 0.5s, filter 0.5s;
+	  		transition: filter 0.5s;
+		}
+	}
+
+	&.top-bar {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 7;
+		-webkit-transition: -webkit-transform 0.3s;
+		transition: transform 0.3s;
+
+		.logo {
+			  background: url('/images/logo-up-o.svg') no-repeat;
+			  background-position: center;
+			  background-size: 120px 157px;
+			  height: 120px;
+			  width: 157px;
+			  position: absolute;
+			  left: 60px;
+			  top: 35px;
+			  opacity: .77;
+
+			  &:hover {
+			  	opacity: 1;
+			  }
+		}
+
+		nav {
+			margin: 0;
+			&.main-nav {
+				 float: right;
+ 				 margin: 30px 60px 0 0;
+			}
+
+			a {
+				color: #fff;
+				font-weight: 400;
+				cursor: pointer;
+				position: relative;
+			}
+
+			ul {
+				margin-bottom: 0;
+
+				li {
+					float: left;
+					margin-left: 44px;
+					list-style: none;
+
+					&:first-of-type {
+						margin-left: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+.fresh {
+		margin-top: 30px;
+	}
+
+
+@media (max-width: 35em) {
+	section {
+		&.top-bar {
+			top: 15px;
+			.logo {
+				left: 120px;
+				height: 120px;
+			  	width: 157px;
+			  	top: 50px;
+			}
+		}
+	}
+	.splash-container {
+        height: 480px;
+    }
+    .splash-subhead {
+		font-size: 27px;
+		color: white;
+		font-weight: 300;
+		line-height: 1.6;
+		letter-spacing: -0.5px;
+		text-shadow: 0 0 15px rgba(0,0,0,0.5);
+	}
+	section.top-bar nav.main-nav {
+		margin: 0 auto;
+		float: none;
+		ul {
+			margin-bottom: 0;
+  overflow: hidden;
+  width: 65%;
+  margin: 0 auto;
+		}
+
+	}
+}
+

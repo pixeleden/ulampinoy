@@ -3,6 +3,11 @@
 
 @import "typography",
 		"layout/up_t01",
+		"layout/home",
 		"post-theme/colors"
 		;
 
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}

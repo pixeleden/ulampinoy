@@ -274,14 +274,15 @@ a.pure-button-primary {
  * -- SPLASH STYLES --
  * This is the blue top section that appears on the page.
  */
-
+/* 
 .splash-container {
-    /* background: transparent url('assets/hero/kimchi-jars-hero.jpg') 0 0 no-repeat;
+    background: transparent url('assets/hero/kimchi-jars-hero.jpg') 0 0 no-repeat;
     */
 
-    background: transparent url('/assets/hero/adobo-cooking.jpg') 0 0 no-repeat;
+    /* background: transparent url('/assets/hero/vinegar-spices.jpg') 0 0 no-repeat;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader('assets/hero/stirfry-squid-veggies-hero.jpg', sizingMethod='scale');
+    
     z-index: 1;
     overflow: hidden;
     width: 100%;
@@ -289,7 +290,7 @@ a.pure-button-primary {
     margin-bottom: 35px;
     display: table;
 }
-
+*/
 .splash {
     /* absolute center .splash within .splash-container */
 
@@ -346,9 +347,9 @@ a.pure-button-primary {
 /* This is the main heading that appears on the blue section */
 
 .splash-head {
-    font-size: 64px;
+    font-size: 56px;
     font-weight: bold;
-    color: #D90000;
+    color: rgb(255,255,255);
     font-weight: 100;
     line-height: 1;
     margin-top: 0.5em;
@@ -419,7 +420,6 @@ a.pure-button-primary {
 /* My styles */
 
 section {
-    max-width: 95%;
     margin: 0 auto;
     &.more-videos {
         max-width: 100%;
@@ -587,7 +587,7 @@ section {
 }
 
 
-@media (max-width: 35.5em) {
+@media (min-width: 35.5em) {
     .splash-container {
         height: 400px;
     }
@@ -748,7 +748,7 @@ section {
     /* We increase the header font size even more */
 
     .splash-head {
-        font-size: 800%;
+        font-size: 720%;
     }
 
     .splash-subhead {
