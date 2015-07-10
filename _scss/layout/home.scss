@@ -12,6 +12,9 @@ section {
 			position: absolute;
 			top: 0;
 			width: 100%;
+			background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0) 100%);
+  			background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0) 100%);
+
 		}
 	
 		&::after {
@@ -48,7 +51,7 @@ section {
 			  position: absolute;
 			  left: 60px;
 			  top: 35px;
-			  opacity: .77;
+			  opacity: .7;
 
 			  &:hover {
 			  	opacity: 1;
@@ -64,9 +67,10 @@ section {
 
 			a {
 				color: #fff;
-				font-weight: 400;
+				font-weight: 500;
 				cursor: pointer;
 				position: relative;
+				text-transform: uppercase;
 			}
 
 			ul {
@@ -107,9 +111,9 @@ section {
         height: 480px;
     }
     .splash-subhead {
-		font-size: 27px;
+		font-size: 21px;
 		color: white;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.6;
 		letter-spacing: -0.5px;
 		text-shadow: 0 0 15px rgba(0,0,0,0.5);
@@ -124,6 +128,14 @@ section {
   margin: 0 auto;
 		}
 
+	}
+
+	.hero-mini {
+		.header {
+			font-size: 16px;
+			width: 70%;
+			top: 180px;
+		}
 	}
 }
 
