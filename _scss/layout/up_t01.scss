@@ -542,7 +542,7 @@ section {
 
 
 .related {
-    margin-top: 40px;
+    margin-top: 60px;
     padding-top: 30px;
 }
 
@@ -555,15 +555,16 @@ section {
 }
 
 .jump-archive {
-    font-size: 24px;
+    font-size: 21px;
     text-align: center;
-    display: block;
-    margin: 0 auto 80px;
 
     a {
-        width: 150px;
-        padding: .6em .9em;
-        border: 1px solid #ddd;
+        width: 220px;
+        padding: .8em;
+        border: 2px solid #08c;
+        margin: 0 auto;
+        display: block;
+        font-weight: 500;
 
         &:hover {
             border-color: #00A1F1;
