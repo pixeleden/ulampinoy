@@ -54,7 +54,7 @@ section {
 			  position: absolute;
 			  left: 60px;
 			  top: 35px;
-			  opacity: .7;
+			  opacity: .8;
 
 			  &:hover {
 			  	opacity: 1;
@@ -74,6 +74,13 @@ section {
 				cursor: pointer;
 				position: relative;
 				text-transform: uppercase;
+				letter-spacing: 2px;
+				padding: .8em;
+				text-shadow: 0 1px 5px rgba(0,0,0,.3);
+				&.subscribe {
+					background: rgba(0,0,0,.1);
+					border: 2px solid rgba(255,255,255,.5);
+				}
 
 				&:hover {
 					text-decoration: none;
@@ -85,7 +92,7 @@ section {
 
 				li {
 					float: left;
-					margin-left: 44px;
+					margin-left: 40px;
 					list-style: none;
 
 					&:first-of-type {
@@ -130,9 +137,9 @@ section {
 		float: none;
 		ul {
 			margin-bottom: 0;
-  overflow: hidden;
-  width: 65%;
-  margin: 0 auto;
+			overflow: hidden;
+			margin: 20px auto 0;
+			width: 90%;
 		}
 
 	}
