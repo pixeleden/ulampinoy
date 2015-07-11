@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="207px" height="160px" viewBox="0 0 207 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="197px" height="158px" viewBox="0 0 197 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch Beta 3.3 (11751) - http://www.bohemiancoding.com/sketch -->
     <title>logo-up-o</title>
     <desc>Created with Sketch Beta.</desc>
-    <defs></defs>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.338844543 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.338844543 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="logo-up-o" sketch:type="MSLayerGroup" transform="translate(5.000000, 5.000000)">
-            <path d="M98.2631444,149.222798 C139.368156,149.222798 196.526289,127.24699 196.526289,86.1917844 C196.526289,45.1365791 148.359295,0.548748009 98.2631444,0.548748009 C48.1669934,0.548748009 0,45.1365791 0,86.1917844 C0,127.24699 57.1581333,149.222798 98.2631444,149.222798 Z" id="Oval-3" stroke="#FFFFFF" stroke-width="5" sketch:type="MSShapeGroup"></path>
-            <path d="M39.9973475,81.7162587 C39.9973475,106.419901 50.2815359,117.136093 69.3807429,117.136093 C88.47995,117.136093 98.5381123,106.419901 98.5381123,81.7162587 L98.5381123,42.2355517 L82.4902578,42.2355517 L82.4902578,83.408289 C82.4902578,97.8469476 77.6306963,102.810236 69.3807429,102.810236 C61.1307896,102.810236 56.6102672,97.8469476 56.6102672,83.408289 L56.6102672,42.2355517 L39.9973475,42.2355517 L39.9973475,81.7162587 Z M110.013425,115.782469 L126.739358,115.782469 L126.739358,90.8532223 L136.910534,90.8532223 C152.506336,90.8532223 165.728864,83.182685 165.728864,65.9239759 C165.728864,48.1012567 152.958388,42.2355517 136.910534,42.2355517 L110.013425,42.2355517 L110.013425,115.782469 Z M126.739358,77.655386 L126.739358,55.433388 L135.893416,55.433388 C144.708435,55.433388 149.454983,58.2534385 149.454983,65.9239759 C149.454983,73.5945133 145.047474,77.655386 135.893416,77.655386 L126.739358,77.655386 Z" id="UP" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        <g id="logo-up-o" sketch:type="MSLayerGroup" transform="translate(20.000000, 19.000000)">
+            <path d="M78.6105155,119.378238 C111.494524,119.378238 157.221031,101.797592 157.221031,68.9534275 C157.221031,36.1092633 118.687436,0.438998407 78.6105155,0.438998407 C38.5335947,0.438998407 0,36.1092633 0,68.9534275 C0,101.797592 45.7265066,119.378238 78.6105155,119.378238 Z" id="Oval-3" stroke-opacity="0.797129755" stroke="#FFFFFF" stroke-width="5" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+            <path d="M31.997878,65.373007 C31.997878,85.1359209 40.2252287,93.7088744 55.5045943,93.7088744 C70.78396,93.7088744 78.8304898,85.1359209 78.8304898,65.373007 L78.8304898,33.7884413 L65.9922063,33.7884413 L65.9922063,66.7266312 C65.9922063,78.2775581 62.104557,82.2481892 55.5045943,82.2481892 C48.9046317,82.2481892 45.2882138,78.2775581 45.2882138,66.7266312 L45.2882138,33.7884413 L31.997878,33.7884413 L31.997878,65.373007 Z M88.0107403,92.625975 L101.391487,92.625975 L101.391487,72.6825779 L109.528427,72.6825779 C122.005069,72.6825779 132.583091,66.546148 132.583091,52.7391807 C132.583091,38.4810054 122.36671,33.7884413 109.528427,33.7884413 L88.0107403,33.7884413 L88.0107403,92.625975 Z M101.391487,62.1243088 L101.391487,44.3467104 L108.714733,44.3467104 C115.766748,44.3467104 119.563986,46.6027508 119.563986,52.7391807 C119.563986,58.8756106 116.037979,62.1243088 108.714733,62.1243088 L101.391487,62.1243088 Z" id="UP" fill="#FFFFFF" filter="url(#filter-2)" sketch:type="MSShapeGroup"></path>
         </g>
     </g>
 </svg>
