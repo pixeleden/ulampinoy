@@ -13,6 +13,11 @@ Here’s one of my all-time fave dish – Huevos Rotos which literally means “
 
 Typically here in Madrid, the eggs are broken, literally when they serve it, in front of you!
 
+<figure class="full-width">
+	<img class="pure-img" src="/assets/photos/eggs-in-tray.jpg" alt="A dozen eggs on tray">
+	<figcaption>A dozen eggs</figcaption>
+</figure>
+
 ### Ingredients
 
 * 2 Eggs
