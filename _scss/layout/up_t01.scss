@@ -315,7 +315,7 @@ a.pure-button-primary {
     overflow: hidden;
     width: 100%;
     height: 360px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     display: table;
     position: relative;
     .header {
@@ -328,17 +328,19 @@ a.pure-button-primary {
         left: 0;
         right: 0;
         text-align: center;
-        h2 {
+        h1 {
             color: #fff;
             font-weight: 400;
+            font-size: 24px;
             text-transform: uppercase;
             line-height: 1.2;
             text-shadow: 0 0 15px rgba(0,0,0,.5);
-            letter-spacing: 14px;
-            border-top: 1px solid rgba(255,255,255,.4);
-            border-bottom: 1px solid rgba(255,255,255,.4);
+            letter-spacing: 12px;
+            word-spacing: 10px;
+            border-top: 1px solid rgba(255,255,255,.3);
+            border-bottom: 1px solid rgba(255,255,255,.3);
             display: inline-block;
-            padding: 15px;
+            padding: 8px;
         }
     }
 }
@@ -442,6 +444,20 @@ section {
             color: #666;
         }
     }
+}
+
+.title-friendly {
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    h2 {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 1.2em;
+        margin-bottom: 40px;
+        color: #7a7a7a;
+    }  
 }
 
 .read-more {
@@ -603,7 +619,7 @@ section {
         height: 360px;
         .header {
             font-size: 14px;
-            top: 150px;
+            top: 140px;
         }
     }
     .single-post {

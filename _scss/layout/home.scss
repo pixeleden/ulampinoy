@@ -80,11 +80,13 @@ section {
 				
 				&.subscribe {
 					background: rgba(0,0,0,.1);
-					border: 2px solid rgba(255,255,255,.5);
+					border: 2px solid rgba(255,255,255,.4);
 				}
 
 				&:hover {
 					text-decoration: none;
+					color: #00A1F1;
+					border-color: #00A1F1;
 				}
 			}
 
@@ -110,7 +112,7 @@ section {
 	}
 
 
-@media (max-width: 35em) {
+@media (max-width: 34.5em) {
 	section {
 		&.top-bar {
 			top: 15px;
@@ -118,19 +120,22 @@ section {
 				left: 120px;
 				height: 120px;
 			  	width: 157px;
-			  	top: 50px;
+			  	top: 85px;
+			  	opacity: .6;
 			}
 		}
 	}
 	.splash-container {
         height: 480px;
     }
+    .splash-head {
+		margin-top: 70px;
+    }
     .splash-subhead {
 		font-size: 21px;
 		color: white;
 		font-weight: 400;
-		line-height: 1.6;
-		letter-spacing: -0.5px;
+		line-height: 1.7;
 		text-shadow: 0 0 15px rgba(0,0,0,0.5);
 	}
 	section.top-bar nav.main-nav {
@@ -157,7 +162,7 @@ section {
 		.header {
 			font-size: 16px;
 			width: 70%;
-			top: 180px;
+			top: 210px;
 		}
 	}
 

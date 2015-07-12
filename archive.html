@@ -2,27 +2,22 @@
 layout: home
 ---
 
-<section class="top-bar">
-  <a class="logo" href="/"></a>
-  <nav class="main-nav">
-    <ul>
-      <li><a href="/archive.html">Archive</a></li>
-      <li><a href="#subscribe" class="subscribe">Subscribe</a></li>
-    </ul>
-  </nav>
-</section>
+{% include topbar.html %}
 
 <div class="hero-mini pure-u-1 pureu-md-1">
     <div class="header">
-        <h2>Our Yummy Archive</h1>
+        <h1>Ulampinoy Archive</h1>
     </div>
 </div>
 
 <div class="content-wrapper">
   
-  <section class="porky">
+  <section class="toc">
+    <div class="title-friendly">
+      <h2>Take a look and be inspired to make your own</h2>
+    </div>
+
     <div class="pure-g latest-posts">
-      
       {% for post in site.posts %}
        <div class="pure-u-1 pure-u-md-1-3">
          <article class="post">
