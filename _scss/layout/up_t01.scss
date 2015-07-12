@@ -456,7 +456,7 @@ section {
         font-weight: 300;
         line-height: 1.2em;
         margin-bottom: 40px;
-        color: #7a7a7a;
+        color: #9a9a9a;
     }  
 }
 
@@ -494,15 +494,18 @@ section {
 .single-post {
     margin: 0 auto;
     max-width: 980px;
+    
     p, ul, ol {
         font-size: 20px;
         line-height: 1.6;
         font-weight: 400;
     }
+
     figure {
         .full-width {
             margin: 0 auto;
         }
+
     }
     .entry {
         padding: 40px 0 60px 0;
@@ -515,6 +518,8 @@ section {
             letter-spacing: .08em;
             font-weight: 400;
             color: #777;
+            margin-top: 30px;
+            margin-bottom: 20px;
         }
         h1 {
             font-weight: 300;
@@ -525,11 +530,14 @@ section {
         }
         p {
             width: 80%;
-            margin: 30px auto;
+            margin: 20px auto;
             font-weight: 400;
             img {
                 max-width: 100%;
             }
+        }
+        ul {
+            list-style-position: outside;
         }
         .photo {
             position: relative;
@@ -555,6 +563,31 @@ section {
     }
 }
 
+h3 {
+    &#ingredients::before,
+    &#procedure::before {
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-right: .5em;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transform: translate(0, 0);
+    }
+    &#ingredients::before {
+       content: "\f06c"; 
+    }
+    &#procedure::before {
+        content: "\f0ae";
+
+    }
+
+}
+           
+           
+               
+    
 
 
 .related {

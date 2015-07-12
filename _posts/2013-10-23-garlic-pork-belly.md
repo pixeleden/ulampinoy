@@ -9,9 +9,13 @@ photo: /assets/photos/garlic-pork-liempo.jpg
 
 Got some pork belly in your fridge? Easy to make yet delicious crispy pork belly strips.
 
-![Fresh pork belly strips and cloves of garlic](/assets/photos/pork-garlic-chopping-board.jpg)
+<div class="pure-g">
+  <div class="pure-u-1-1">
+     <img class="pure-img" src="/assets/photos/pork-garlic-chopping-board.jpg" alt="Fresh pork belly strips and cloves of garlic">
+  </div>
+</div>
 
-### Ingredients for GARLIC PORK BELLY:
+### Ingredients
 * 1 kg pork belly (cut into thick strips)
 * 1 head of garlic (cruched, peeled and chooped)
 * 1/2 cup vinegar
