@@ -15,7 +15,6 @@ Typically here in Madrid, the eggs are broken, literally when they serve it, in 
 
 {% include figure.html src="/assets/photos/eggs-in-tray.jpg" caption="A dozen eggs on tray" %}
 
-
 ### Ingredients
 
 * 2 Eggs

@@ -2,6 +2,7 @@
 
 $carbon: #0A0A0A;
 $silver: #BABABA;
+$veridian: #DFFFBF;
 
 // Dark theme
 
@@ -12,6 +13,14 @@ body {
 
 		.home-menu {
 			background: $carbon;
+		}
+	}
+
+	&.green {
+		background-color: $veridian;
+
+		.single-post .entry h1 {
+			color: #4C6600;
 		}
 	}
 }
