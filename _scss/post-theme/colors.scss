@@ -19,7 +19,7 @@ body {
 	&.green {
 		background-color: $veridian;
 
-		.single-post .entry h1 {
+		.single-post .entry h1, .fa.fa-circle {
 			color: #4C6600;
 		}
 	}
