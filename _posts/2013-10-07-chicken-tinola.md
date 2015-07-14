@@ -40,7 +40,7 @@ Pechay, is almost like bok choi but it is darker green in color and has more tex
 
 Sauté the ginger first in oil then garlic and onions. Throw in the chicken and sauté for couple of minutes before pressure cooking.
 
-{% include figure.html src="/assets/photos/sauteeing-chicken-cuts.jpg" caption="Saute chicken and xx	xspices until the chicken skin get some color" %}
+{% include figure.html src="/assets/photos/sauteeing-chicken-cuts.jpg" caption="Saute chicken and 	spices until the chicken skin get some color" %}
 
 Serve hot! The perfect comfort food specially for the rainy days.
 
