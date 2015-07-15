@@ -1,0 +1,111 @@
+---
+layout: home
+title: adventures
+---
+
+{% include topbar.html %}
+
+<section class="main-header">
+  <div class="splash-container">
+    <div class="splash">
+      <h1 class="splash-head">Ulampinoy Adventures</h1>
+      <p class="splash-subhead">
+          Delicious foods, lovely places and random things
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section class="fresh">
+  <div class="title-section-name">
+    <h2>What's fresh and tasty</h2>
+  </div>
+
+  <div class="latest-posts pure-g">
+    {% for post in site.categories.featured | limit: 3%}
+    <div class="pure-u-1 pure-u-md-1-3">
+      <article class="post">
+        <a href="{{ site.baseurl }}{{ post.url }}"><img class="pure-img" src="{{ post.photo }}" /></a>
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <div class="entry teaser">
+          <p>{{ post.excerpt }}
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Learn more</a>
+          </p>
+        </div>
+      </article>
+    </div>
+   {% endfor %}
+  </div>
+</section>
+
+
+<div class="pure-g featured-video black-box">
+  <div class="pure-u-1 pure-u-m-1">
+  <div class="title-section-name">
+    <h2 class="dark">Cook along now</h2>
+  </div>
+    <div class="video-holder">
+       <iframe width="640" height="360" src="https://www.youtube.com/embed/Vf1-PuCyGt0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-teaser">
+      <h2>Hot Spiced Vinegar</h2>
+      <p>
+        Watch the video on how to make spiced vinegar with red hot chilis and spices!
+        The perfect dip for crunchy chicharrones and crispy pork belly.
+      </p>
+      <p><a href="https://www.youtube.com/user/ulampinoy/videos">Watch more video recipes in our YouTube channel</a></p>
+    </div>
+  </div>
+</div>
+
+<section class="more-videos">
+  <div class="title-section-name">
+      <h2 class="dark">More video recipes</h2>
+  </div>
+  <div class="pure-g latest-posts">
+
+    {% for post in site.categories.video | limit: 2 %}
+    <div class="pure-u-1 pure-u-md-1-2">
+      <article class="post">
+        <a href="{{ site.baseurl }}{{ post.url }}"><img class="pure-img" src="{{ post.photo }}" /></a>
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <div class="entry teaser">
+          <p>{{ post.excerpt }}
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Learn more</a>
+          </p>
+        </div>
+      </article>
+    </div>
+   {% endfor %}
+  </div>
+</section>
+
+<section class="porky">
+  <div class="title-section-name">
+      <h2>Our All-time Favorites</h2>
+  </div>
+  <div class="pure-g latest-posts">
+
+    {% for post in site.categories.favorite | limit: 3%}
+    <div class="pure-u-1 pure-u-md-1-3">
+      <article class="post">
+        <a href="{{ site.baseurl }}{{ post.url }}"><img class="pure-img" src="{{ post.photo }}" /></a>
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <div class="entry teaser">
+          <p>{{ post.excerpt }}
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Learn more</a>
+          </p>
+        </div>
+      </article>
+    </div>
+   {% endfor %}
+  </div>
+</section>
+
+{% include subscribe.html %}
+
+  <div class="footer l-box is-center">
+    <p>Copyright © 2015 UlamPinoy. All rights reserved. Follow us <a href="https://instagram.com/ulampinoy/">Instagram</a></p>
+  </div>
+
