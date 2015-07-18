@@ -2,11 +2,10 @@
 layout: post
 title: Chicken Afritada
 date:   2013-11-29 00:18:00
-categories: video 
-tags: chicken
+categories: video chicken
 excerpt: Tomato-based chicken stew with carrots, bell pepper, and potatoes.
-photo: /assets/photos/chicken-tinola-bowl.jpg
-theme: green
+photo: /assets/photos/chicken-afritada-pot.jpg
+theme: tomato
 ---
 
 Tinola will be at the top the list of *ulam na may sabaw.* It is chicken broth soup with upo (bottle gourd), pechay (Chinese cabbage) and ginger.
@@ -24,6 +23,8 @@ Tinola will be at the top the list of *ulam na may sabaw.* It is chicken broth s
 * Cooking oil
 * Patis (fish sauce)
 * Salt to taste
+
+### Quick Tip
 
 If you can get free-range chicken, the broth will be many times tastier. We used what's called pollo de corral here in Spain which will be more or less the equivalent of the 'native' chicken in the Philippines. The common characteristic will be darker meat and harder bones. It takes a bit more to cook but the texture and taste are superb! If you use the regular chicken, less pressure cooking time is required. Better to buy whole chicken and have the butcher portion it into chunks.
 

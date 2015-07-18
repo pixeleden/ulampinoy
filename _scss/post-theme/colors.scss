@@ -3,6 +3,7 @@
 $carbon: #0A0A0A;
 $silver: #BABABA;
 $veridian: #DFFFBF;
+$tomato: #FFE7DE;
 
 // Dark theme
 
@@ -23,4 +24,18 @@ body {
 			color: #4C6600;
 		}
 	}
+
+	&.tomato {
+		background-color: $tomato;
+
+		.single-post .entry h1, .entry h3, .fa.fa-circle {
+			color: #A7434E;
+		}
+
+		.entry h3 {
+			opacity: .8;
+		}
+	}
+
+
 }
