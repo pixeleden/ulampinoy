@@ -4,7 +4,7 @@ title: Chicken Afritada
 date:   2013-11-29 00:18:00
 categories: video 
 tags: chicken
-excerpt: Tomato-based chicken stew with carrots, bell peppers, and potatoes.
+excerpt: Tomato-based chicken stew with carrots, bell pepper, and potatoes.
 photo: /assets/photos/chicken-tinola-bowl.jpg
 theme: green
 ---
