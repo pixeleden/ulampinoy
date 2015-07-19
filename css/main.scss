@@ -2,15 +2,84 @@
 ---
 
 @import "typography",
-		"layout/up_t01",
-		"layout/home",
-		"post-theme/colors"
+		"layout/home"
 		;
 
-*,
-*::before,
-*::after {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+@import "../bower_components/pure/pure-min.css";
+
+@import "../bower_components/susy/sass/susy";
+
+/* Changing Susy default global settings */
+$susy: (
+  columns: 12,
+  container: 1120px,
+  container-position: center,
+  global-box-sizing: border-box 
+  );
+
+/* Makes border-box properties */
+@include border-box-sizing;
+
+
+.page-wrapper {
+	@include container;
+}
+
+.inner-wrapper {
+}
+
+section {
+}
+
+article {
+
+}
+
+.video-full {
+	position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin: 40px auto;
+  iframe {
+		  position: absolute;
+  		top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	}
+}
+
+.content {
+
+}
+
+.gallery {
+	@include span(12);
+	@include bleed(gutter(12));
+	margin-bottom: 0;
+    padding-bottom: 0;
+
+    .gallery-item {
+		margin-bottom: gutter(8);
+
+  		img {
+  			width: 100%;
+  		}
+
+    	&.gi3 {
+  			@include gallery(4 of 12);	
+    	}
+
+    	&.gi2 {
+  			@include gallery(6 of 12);	
+    	}
+	}
+} 
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
 }

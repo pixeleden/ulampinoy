@@ -1,0 +1,18 @@
+<section class="itemlist">
+    <div class="itemlist-header">
+        <h2 class="dark">More video recipes</h2>
+    </div>
+    <div class="gallery">
+        {% for post in site.categories.video | limit: 2 %}
+        <article class="post gallery-item gi2">
+            <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.photo }}" /></a>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <div class="entry teaser">
+                <p>{{ post.excerpt }}
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Learn more</a>
+                </p>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</section>
