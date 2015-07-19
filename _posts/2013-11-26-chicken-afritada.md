@@ -8,7 +8,7 @@ photo: /assets/photos/chicken-afritada-pot.jpg
 theme: tomato
 ---
 
-Tinola will be at the top the list of *ulam na may sabaw.* It is chicken broth soup with upo (bottle gourd), pechay (Chinese cabbage) and ginger.
+Easy to make one-pot chicken dish with vegetables. You can make a large batch and save some for your *baon* to work. It is a complete *ulam* where you have the *sarsa* for the rice and the main deal - chicken and vegetable.
 
 
 ### Ingredients
