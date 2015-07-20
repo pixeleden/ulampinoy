@@ -5,34 +5,53 @@
 		"layout/home"
 		;
 
-@import "../bower_components/pure/pure-min.css";
-
 @import "../bower_components/susy/sass/susy";
 
-/* Changing Susy default global settings */
-$susy: (
-  columns: 12,
-  container: 1120px,
-  container-position: center,
-  global-box-sizing: border-box 
-  );
+@import "../bower_components/normalize.css/normalize.css";
 
-/* Makes border-box properties */
+@mixin clearfix {
+  &:after {
+    content: ""; 
+    display: table;
+    clear: both; 
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* Susy default global settings */
+
+$susy: (
+  container: 70em,
+  columns: 12,
+  gutters: 1/16,
+  container-position: center,
+  global-box-sizing: border-box
+);
+
 @include border-box-sizing;
 
-
 .page-wrapper {
-	@include container;
+  @include container;
 }
 
-.inner-wrapper {
+
+h2 {
+	font-weight: 400;
 }
 
-section {
-}
-
-article {
-
+.itemlist {
+	.itemlist-header {
+		h2 {
+			font-weight: 100;
+			border-bottom: 1px solid #e9e9e9;
+			padding-bottom: 15px;
+			color: #999;
+		}
+	}
 }
 
 .video-full {
@@ -50,31 +69,48 @@ article {
 	}
 }
 
-.content {
+@include susy-breakpoint(320px, 1) {
+	.itemlist .itemlist-header h2 { color: red; }
+  .gallery { 
+  	@include span(2);
+  	
+  	.gallery-item {
+		margin-bottom: gutter(1);
+    	img {
+  			width: 100%;
+  		}
 
+    	&.gi3 {
+  			@include gallery(1 of 2);	
+    	}
+	}	
+  }
 }
 
 .gallery {
 	@include span(12);
 	@include bleed(gutter(12));
+	@include clearfix;
+	padding: gutter();
 	margin-bottom: 0;
-    padding-bottom: 0;
 
     .gallery-item {
-		margin-bottom: gutter(8);
-
-  		img {
-  			width: 100%;
-  		}
+		margin-bottom: gutter();
 
     	&.gi3 {
-  			@include gallery(4 of 12);	
+  			@include gallery(12 of 12);
+  			float: none;
+
+  			@media (min-width: 700px) {
+      			@include gallery(4 of 12);
+      			margin-bottom: 0;
+    		}	
     	}
 
     	&.gi2 {
   			@include gallery(6 of 12);	
     	}
-	}
+	}	
 } 
 
 
