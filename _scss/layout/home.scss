@@ -3,7 +3,6 @@
 section {
 
 	&.main-header {
-		position: relative;
 
 		&::before {
 			content: '';
@@ -35,147 +34,6 @@ section {
 	  		transition: filter 0.5s;
 		}
 	}
-
-	&.top-bar {
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 0;
-		z-index: 7;
-		-webkit-transition: -webkit-transform 0.3s;
-		transition: transform 0.3s;
-
-		.logo {
-			  background: url('/images/logo-up-o.svg') no-repeat;
-			  background-position: center;
-			  background-size: 140px 184px;
-			  height: 140px;
-			  width: 184px;
-			  position: absolute;
-			  left: 60px;
-			  top: 30px;
-			  opacity: .8;
-
-			  &:hover {
-			  	opacity: 1;
-			  }
-		}
-
-		nav {
-			margin: 0;
-			&.main-nav {
-				 float: right;
- 				 margin: 30px 60px 0 0;
-			}
-
-			a {
-				color: #fff;
-				font-weight: 500;
-				cursor: pointer;
-				position: relative;
-				text-transform: uppercase;
-				letter-spacing: 2px;
-				padding: .8em;
-				text-shadow: 0 1px 5px rgba(0,0,0,.3);
-				
-				&.subscribe {
-					background: rgba(0,0,0,.1);
-					border: 2px solid rgba(255,255,255,.4);
-				}
-
-				&:hover {
-					text-decoration: none;
-					color: #00A1F1;
-					border-color: #00A1F1;
-				}
-			}
-
-			ul {
-				margin-bottom: 0;
-
-				li {
-					float: left;
-					margin-left: 40px;
-					list-style: none;
-
-					&:first-of-type {
-						margin-left: 0;
-					}
-				}
-			}
-		}
-	}
-}
-
-.fresh {
-		margin-top: 30px;
-	}
-
-
-@media (max-width: 34.5em) {
-	section {
-		&.top-bar {
-			top: 15px;
-			.logo {
-				left: 120px;
-				height: 120px;
-			  	width: 157px;
-			  	top: 85px;
-			  	opacity: .6;
-			}
-		}
-	}
-	.splash-container {
-        height: 480px;
-    }
-    .splash-head {
-		margin-top: 70px;
-    }
-    .splash-subhead {
-		font-size: 21px;
-		color: white;
-		font-weight: 400;
-		line-height: 1.7;
-		text-shadow: 0 0 15px rgba(0,0,0,0.5);
-	}
-	section.top-bar nav.main-nav {
-		margin: 0 auto;
-		float: none;
-
-		ul {
-			margin-bottom: 0;
-			overflow: hidden;
-			margin: 20px auto 0;
-			width: 90%;
-		}
-
-		a {
-			&.subscribe {
-				background: none;
-				border: none;
-			}
-		}
-
-	}
-
-	.hero-mini {
-		.header {
-			font-size: 16px;
-			width: 70%;
-			top: 210px;
-		}
-	}
-
-	.single-post {
-		p, ul, ol {
-			font-size: 18px;
-		}
-	}
-
-	.meta.pubDate {
-		font-size: 14px;
-	}
-
 }
 
 .post-hero {
@@ -192,13 +50,6 @@ section {
 	z-index: 1;
 	background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0) 100%);
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0) 100%);
-	}
-}
-
-.title-friendly {
-	
-	h2 {
-		margin-top: 0;
 	}
 }
 

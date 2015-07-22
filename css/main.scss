@@ -2,12 +2,11 @@
 ---
 
 @import "typography",
-		"layout/home"
+		"layout/home",
+		"layout/menu"
 		;
 
 @import "../bower_components/susy/sass/susy";
-
-@import "../bower_components/normalize.css/normalize.css";
 
 @mixin clearfix {
   &:after {
@@ -25,16 +24,16 @@ img {
 /* Susy default global settings */
 
 $susy: (
-  container: 70em,
+  container: auto,
   columns: 12,
-  gutters: 1/16,
+  gutters: 1/4,
   container-position: center,
   global-box-sizing: border-box
 );
 
 @include border-box-sizing;
 
-.page-wrapper {
+.wrapper {
   @include container;
 }
 
@@ -66,6 +65,18 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
+	}
+}
+
+section {
+
+    &.main-header {
+		@include container;
+    position: relative;
+
+		.hero {
+			height: 400px;
+		}
 	}
 }
 
