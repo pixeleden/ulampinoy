@@ -46,14 +46,14 @@ section {
 		transition: transform 0.3s;
 
 		.logo {
-			  background: url('/images/logo-up-o.svg') no-repeat;
+			  background: url('/images/logo-up-red.svg') no-repeat;
 			  background-position: center;
-			  background-size: 140px 184px;
-			  height: 140px;
-			  width: 184px;
+			  background-size: 120px 164px;
+			  height: 120px;
+			  width: 164px;
 			  position: absolute;
 			  left: 60px;
-			  top: 10px;
+			  top: 20px;
 			  opacity: .8;
 
 			  &:hover {
