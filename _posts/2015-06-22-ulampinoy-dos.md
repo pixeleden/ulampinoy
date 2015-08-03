@@ -44,6 +44,17 @@ As the title above suggests it is a work in progress. Instead of waiting to fini
     </div>
 </div>
 
+There are more site visitors using a tablet or mobile phone so we made Ulampinoy responsive across different devices for better viewing experience.
+
+<div class="pure-g">
+    <div class="pure-u-1-1">
+      <div class="p-box">
+        <img class="pure-img" src="/assets/photos/up-devices.jpg" alt="Ulampinoy website on iPad and Mac">
+        <small>Responsive ulampinoy.com website</small>
+      </div>
+    </div>
+</div>
+
 You might find some rough edges here and there so please bear with us as we polish up UlamPinoy. Meanwhile, if you have not subscribe yet please do by clicking the **'Subscribe'** link at the top right corner of the page.
 
 Hope you enjoy the fresh new look of UlamPinoy as we continue making home cooking fun and delicious!

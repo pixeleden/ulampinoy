@@ -786,7 +786,11 @@ h3 {
     }
 
     .p-box {
-        padding: .4em 0;
+        padding: .4em .08em;
+
+        small {
+            margin-left: 0;
+        }
     }
 }
 /*
