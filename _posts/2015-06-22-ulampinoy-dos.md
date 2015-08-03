@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Currently, cooking…"
-date:   2015-07-04 23:00:32
+date:   2015-08-03 23:57:04
 categories: update ulampinoy featured
 excerpt: We are redesigning UlamPinoy. Stay tuned…
 photo: /assets/photos/caldero-on-top-wood-stove.jpg
