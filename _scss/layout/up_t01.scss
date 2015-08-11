@@ -302,6 +302,13 @@ a.pure-button-primary {
     bottom: 0;
     right: 0;
     text-align: center;
+
+    p {
+        color: #fff;
+        margin: 10px 0 0;
+        font-size: 1.1rem;
+    }
+
     .logo-badge {
         width: 144px;
     }
@@ -352,21 +359,23 @@ a.pure-button-primary {
     color: rgb(255,255,255);
     font-weight: 100;
     line-height: 1;
-    margin-top: 0.5em;
-    margin-bottom: 0;
+    margin-top: 0.3em;
+    margin-bottom: 0.1em;
     text-shadow: 0 0 30px rgba(0, 0, 0, .4);
     text-align: center;
 }
-/* This is the subheading that appears on the hero section */
+
+    /* This is the subheading that appears on the hero section */
 
 .splash-subhead {
-    font-size: 35px;
+    font-size: 34px;
     color: white;
     font-weight: 300;
     line-height: 1.6;
     letter-spacing: -0.5px;
     text-shadow: 0 0 15px rgba(0,0,0,.5);
 }
+
 /*
  * -- CONTENT STYLES --
  * This represents the content area (everything below the blue section)

@@ -36,3 +36,36 @@
 		}
 
 }
+
+body {
+	&.thank-you {
+
+		&::after {
+				background: url('/assets/hero/wood-carvings.jpg') no-repeat center bottom;
+				background-size: cover;
+		  		content: "";
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				z-index: -1;
+				color: #fff;
+		  		-webkit-transition: -webkit-filter 0.5s, filter 0.5s;
+		  		transition: filter 0.5s;
+			}
+
+		.footer {
+			background: transparent;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+
+			p {
+				color: #aaa;
+				font-size: 14px;
+			}
+		}
+
+	}
+}
