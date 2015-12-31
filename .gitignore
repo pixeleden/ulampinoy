@@ -3,3 +3,5 @@ _site/*
 _Gemfile
 _Gemfile.lock
 _drafts
+admin/
+bower_components/
