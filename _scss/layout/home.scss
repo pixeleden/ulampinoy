@@ -77,11 +77,6 @@ section {
 				letter-spacing: 2px;
 				padding: .8em;
 				text-shadow: 0 1px 5px rgba(0,0,0,.3);
-				
-				&.subscribe {
-					background: rgba(0,0,0,.1);
-					border: 2px solid rgba(255,255,255,.4);
-				}
 
 				&:hover {
 					text-decoration: none;
@@ -96,12 +91,42 @@ section {
 
 				li {
 					float: left;
-					margin-left: 40px;
+					margin: 0 15px;
 					list-style: none;
 
 					&:first-of-type {
 						margin-left: 0;
 					}
+
+					&.nav-item {
+						margin-top: 6px;
+					}
+
+					.st-default-search-input {
+						color: #fff;
+						font-size: 16px;
+						width: 92px;
+						-webkit-transition: width .3s;
+						-moz-transition: width .3s;
+						transition: width .3s;
+						border-radius: 33px;
+						border: 1px solid rgba(255,255,255,0.8);
+						background-color: rgba(0,0,0,.2);
+						background-image: url(/images/ic_search_white_24dp_2x.png);
+						background-repeat: no-repeat;
+						background-size: 24px 24px;
+						padding: 12px 20px 11px 40px;
+
+						&:focus {
+							width: 144px;
+						}
+					}
+
+					::-webkit-input-placeholder {
+   						color: rgba(255,255,255,.8);
+   						font-weight: 300;
+					}
+
 				}
 			}
 		}
@@ -118,11 +143,14 @@ section {
 		&.top-bar {
 			top: 15px;
 			.logo {
-				left: 120px;
+				margin: 0  auto;
+				text-align: center;
 				height: 120px;
 			  	width: 157px;
-			  	top: 85px;
+			  	display: block;
+			  	position: static;
 			}
+			
 		}
 	}
 	.splash-container {
@@ -139,20 +167,28 @@ section {
 		text-shadow: 0 0 15px rgba(0,0,0,0.5);
 	}
 	section.top-bar nav.main-nav {
-		margin: 0 auto;
+		margin: 10px auto;
+		display: block;
+		width: 280px;
 		float: none;
+		text-align: center;
 
 		ul {
-			margin-bottom: 0;
 			overflow: hidden;
-			margin: 20px auto 0;
-			width: 90%;
-		}
+			display: block;
+			margin: 0;
+			padding: 0;
 
-		a {
-			&.subscribe {
-				background: none;
-				border: none;
+			li {
+				.st-default-search-input {
+					width: 185px;
+					margin-right: 0;
+					float: none;
+				}
+
+				&.nav-item {
+					display: none;
+				}
 			}
 		}
 
