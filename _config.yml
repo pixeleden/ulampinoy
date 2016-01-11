@@ -2,7 +2,7 @@
 title: UlamPinoy
 email: chef@ulampinoy.com
 description: Ulam Pinoy is a labour of love for home cooking, food photography and video recipes.
-url: "http://ulampinoy.com" # the base hostname & protocol for your site
+url: "http://www.ulampinoy.com" # the base hostname & protocol for your site
 twitter_username: UlamPinoy
 
 baseurl: ""
