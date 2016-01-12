@@ -506,10 +506,12 @@ section {
     }
 }
 
-.single-post {
+.post {
     margin: 0 auto;
     max-width: 980px;
-    
+}
+.single-post {
+
     p, ul, ol {
         font-size: 20px;
         line-height: 1.6;
@@ -575,6 +577,18 @@ section {
     .eop {
         font-size: 77%;
     }
+}
+
+.comments {
+    margin: 0 auto;
+    max-width: 980px;
+
+    #disqus_thread {
+        width: 77.77%;
+        margin: 20px auto 60px;
+        display: block;
+        overflow: hidden;
+    }   
 }
 
 .fa {
