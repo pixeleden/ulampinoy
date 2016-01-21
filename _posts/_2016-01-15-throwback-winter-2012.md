@@ -1,24 +1,21 @@
 ---
 layout: post
-title:  "Smashing Barcelona"
-date:   2016-01-04 20:02:08
-categories: barcelona spain featured
-excerpt: Quick visit to Barcelona for the Smashing Conference 2015
-photo: /assets/photos/palau-ceiling.jpg
+title:  "Throwback: Winter 2012"
+date:   2016-01-15 21:41:21
+categories: throwback featured
+excerpt: First throwback post looking back the winter of 2012
+photo: /assets/photos/adobo-on-ice.jpg
 ---
 
-I was sent to Barcelona last October 2015 to attend the [Smashing Conference](http://smashingconf.com/barcelona-2015/). It was a great fun experience! Although it was my fifth visit, there are always new things and places to discover in Barcelona.
+Winter is here and came a bit later than usual. Snow is something we are very fond of as you can tell we are from the Philippines and snow is something we see only on screen or print but never an experience.
 
-The conference venue was the magnificent Palau de la Música Catalana. The grandoise ceiling (shown above), stained-glass works and all the details are just splendid.
+![Puerto Navacerrada](/assets/photos/winter-2012/pto-navacerrada-01.jpg)
+![Puerto Navacerrada](/assets/photos/winter-2012/pto-navacerrada-03.jpg)
+![Puerto Navacerrada](/assets/photos/winter-2012/pto-navacerrada-02.jpg)
 
-<div class="pure-g">
-    <div class="pure-u-1-1">
-        <div class="p-box">
-            <img class="pure-img" src="/assets/photos/collage-palau-catalana-terrace.jpg" alt="Magnifecent Palau de la Música Catalana Facade and Terrace">
-            <small>The magnifecent Palau de la Música Catalana facade and terrace.</small>
-        </div>
-    </div>
-</div>
+![Los Cotos Ski Resort](/assets/photos/winter-2012/los-cotos-ski.jpg)
+
+
 
 During lunch breaks the attendees were encouraged to roam around the block close to the venue. My plan was simple: Spot the local attendees and follow their lunch trail. It always works! So, plus points there for decoding Spanish!
 

@@ -351,6 +351,13 @@ a.pure-button-primary {
         }
     }
 }
+
+
+.hero {
+    height: 530px;
+    display: block;
+    overflow: hidden;
+}
 /* This is the main heading that appears on the blue section */
 
 .splash-head {
@@ -790,7 +797,7 @@ h3 {
     /* We increase the height of the splash-container */
 
     .splash-container {
-        height: 480px;
+        height: 530px;
     }
     /* We decrease the width of the .splash, since we have more width
     to work with */
