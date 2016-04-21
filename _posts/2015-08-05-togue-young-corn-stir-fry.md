@@ -1,7 +1,7 @@
 ---
 "title": "Togue Young Corn Stir-Fry"
 "photo": "/assets/photos/togue-young-corn-stirfry-rice.jpg"
-"excerpt": "Stir-fry vegetable of bean sprouts, green beans and young corns with ground pork. Tasty rice toppings that make a great take-away lunch! "
+"excerpt": "Stir-fry vegetable of bean sprouts, green beans and young corns with ground pork. "
 "cmsUserSlug": ""
 "date": 2015-08-05 12:00:00
 "categories": "favorite"
