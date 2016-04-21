@@ -2,7 +2,7 @@
 layout: post
 title:  "Tupperlicious – Adobo and Laing"
 date:   2013-06-23 00:00:01
-categories: baon lunchbox featured
+categories: baon lunchbox favorite
 excerpt: Shredded chicken adobo and spinach laing
 photo: /assets/photos/tupper-rice-chicken-adobo.jpg
 ---
