@@ -2,7 +2,7 @@
 layout: post
 title:  "Monggo & Tamban"
 date:   2011-07-21 00:34:00
-categories: fish legumes favorite
+categories: fish legumes
 excerpt: Mung bean stew, rice and fried. Super classic, super fave.
 photo: /assets/photos/monggo-tamban.jpg
 ---
