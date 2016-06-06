@@ -157,7 +157,7 @@ section {
         height: 480px;
     }
     .splash-head {
-		margin-top: 70px;
+		margin-top: 20vh;
     }
     .splash-subhead {
 		font-size: 21px;
@@ -169,25 +169,45 @@ section {
 	section.top-bar nav.main-nav {
 		margin: 10px auto;
 		display: block;
-		width: 280px;
-		float: none;
+		width: 100%;
 		text-align: center;
 
 		ul {
 			overflow: hidden;
 			display: block;
-			margin: 0;
-			padding: 0;
+			margin: 0 auto;
+			padding: 10px;
+			width: 100%;
 
 			li {
-				.st-default-search-input {
-					width: 185px;
-					margin-right: 0;
-					float: none;
-				}
 
 				&.nav-item {
-					display: none;
+
+					margin: 0;
+
+
+					&.archive {
+						width: 48%;
+						float: left;
+					}
+
+					&.subscribe {
+						width: 48%;
+						float: right;
+					}
+
+					&.search {
+						margin-top: 20px;
+						display: block;
+						clear: both;
+						width: 100%;
+
+						input {
+							width: 220px;
+							margin: 0 auto;
+						}
+					}
+					
 				}
 			}
 		}
