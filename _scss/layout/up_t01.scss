@@ -445,6 +445,11 @@ section {
         max-width: 100%;
         background-color: #000;
     }
+
+    &.search-results {
+        width: 800px;
+        margin: 0 auto;
+    }
 }
 
 .title-section-name {
